@@ -4,7 +4,7 @@
     - dev
 ---
 server:
-  prot:8201
+  port:8201
 spring:
   application:
     name: microservicecloud-client-config-dev
@@ -18,7 +18,7 @@ eureka:
     prefer-ip-address: true #访问路径可以显示IP
 ---
 server:
-  prot:8202
+  port:8202
 spring:
   application:
     name: microservicecloud-client-config-test
