@@ -8,7 +8,7 @@ server:
 spring:
   application:
     name: microservice-eureka
-  profiles: eureka-7001
+  profiles: eureka7001
 
 eureka:
   instance:
@@ -26,7 +26,7 @@ server:
 spring:
   application:
     name: microservice-eureka
-  profiles: eureka-7002
+  profiles: eureka7002
 
 eureka:
   instance:
@@ -44,7 +44,7 @@ server:
 spring:
   application:
     name: microservice-eureka
-  profiles: eureka-7003
+  profiles: eureka7003
 
 eureka:
   instance:
@@ -68,7 +68,7 @@ mybatis:
 spring:
   application:
     name: microservice-provider-dept
-  profiles: dept-8001
+  profiles: dept8001
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -110,7 +110,7 @@ mybatis:
 spring:
   application:
     name: microservice-provider-dept
-  profiles: dept-8003
+  profiles: dept8003
 
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -147,7 +147,7 @@ server:
 spring:
   application:
     name: microservice-consumer-dept-feign
-  profiles: dept-feign
+  profiles: deptfeign
 eureka:
   client:
     service-url:
@@ -174,7 +174,7 @@ eureka:
 spring:
   application:
     name: microservicecloud-zuul-gateway
-  profiles: zuul-dept
+  profiles: zuuldept
 #  profiles:
 #    active:
 
